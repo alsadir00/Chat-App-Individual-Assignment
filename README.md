@@ -26,12 +26,12 @@ This project is developed incrementally and maintained using **GitHub version co
 ---
 
 ## 🎯 Characteristics
-✅ Loosely coupled
-✅ Component-based
-✅ MVC on the client
-✅ Multi-client, multi-threaded server
-✅ Uses advanced Java concepts
-✅ Ready for GitHub + academic submission
+- ✅ Loosely coupled
+- ✅ Component-based
+- ✅ MVC on the client
+- ✅ Multi-client, multi-threaded server
+- ✅ Uses advanced Java concepts
+- ✅ Ready for GitHub + academic submission
 
 
 ## 🎯 Objectives
