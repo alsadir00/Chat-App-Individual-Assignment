@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servlet-Based Web Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        h2 {
+            color: #333;
+        }
+        form {
+            max-width: 400px;
+        }
+        label {
+            display: inline-block;
+            width: 100px;
+            margin-bottom: 10px;
+        }
+        input, select {
+            width: 200px;
+            padding: 5px;
+            margin-bottom: 15px;
+        }
+        button {
+            padding: 8px 15px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Servlet-Based Web Calculator</h2>
+
+<form action="calculate" method="post">
+    <label for="num1">Number 1:</label>
+    <input id="num1" type="text" name="num1" placeholder="Enter first number" required><br>
+
+    <label for="num2">Number 2:</label>
+    <input id="num2" type="text" name="num2" placeholder="Enter second number" required><br>
+
+    <label for="operation">Operation:</label>
+    <select id="operation" name="operation" required>
+        <option value="add">Addition (+)</option>
+        <option value="subtract">Subtraction (-)</option>
+        <option value="multiply">Multiplication (×)</option>
+        <option value="divide">Division (÷)</option>
+    </select><br>
+
+    <button type="submit">Calculate</button>
+</form>
+
+</body>
+</html>
