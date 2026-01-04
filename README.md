@@ -1,4 +1,4 @@
-# Java Socket Chat Application
+# Java Socket Chat Application & Calculator App Using Servlet
 
 ## 📌 Assignment Description
 
